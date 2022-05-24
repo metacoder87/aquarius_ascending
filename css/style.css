@@ -1,5 +1,6 @@
 body {
     background: black;
+    font-family: 'Cinzel', serif;
 }
 
 a {
@@ -12,17 +13,21 @@ h1, h2 {
     justify-content: center;
 }
 
-.volumes, .volume {
+.volumes, .volume, .chapter {
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .coming-soon {
     margin-top: 20px;
     display: flex;
     justify-content: center;
+}
+
+.coming-soon img {
+    width: 40%;
 }
 
 .left-foot img {
@@ -51,4 +56,12 @@ h1, h2 {
 footer {
     display: flex;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 1000px) {
+    .volumes, .volume {
+        display: inline-block;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 }
