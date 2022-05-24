@@ -1,0 +1,49 @@
+body {
+    background: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.volumes, .volume {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.coming-soon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-foot img {
+    visibility: visible;
+    margin-top: 20px;
+    padding-left: 50px;
+    width: 50%;
+}
+
+.left-foot img:hover {
+    visibility: visible;
+    margin-top: 0px;
+    width: 70%;
+    padding-left: 30px;
+}
+
+.left-foot, .right-foot {
+    width: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
