@@ -102,5 +102,10 @@ footer {
 
     .right-foot {
         width: 33%;
+        background-color: black;
+    }
+
+    .right-foot a {
+        font-size: 12px;
     }
 }
