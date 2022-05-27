@@ -7,10 +7,20 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    padding-top: 15px;
+}
+
 h1, h2 {
     color: whitesmoke;
     display: flex;
     justify-content: center;
+}
+
+.top-title {
+    background-color: blueviolet;
+    width: 100%;
+    height: 70px;
 }
 
 .volumes, .volume, .chapter {
@@ -28,6 +38,7 @@ h1, h2 {
 
 .coming-soon img {
     width: 40%;
+    margin-bottom: 20px;
 }
 
 .left-foot img {
@@ -44,13 +55,27 @@ h1, h2 {
     padding-left: 30px;
 }
 
-.left-foot, .right-foot {
-    width: 50%;
+.left-foot {
+    width: 33%;
 }
 
-.right-foot ul {
+.right-foot {
+    width: 66%;
+    background-color: blueviolet;
+}
+
+.right-foot li {
+    list-style-type: none;
+}
+
+.right-foot ul li a {
     align-items: center;
-    margin-left: 40px;
+    margin-left: 20px;
+    color: white;
+}
+
+.right-foot a:hover {
+    color: blue;
 }
 
 footer {
@@ -59,9 +84,23 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
-    .volumes, .volume {
-        display: inline-block;
-        margin-left: 15%;
-        margin-right: 15%;
+    h2 {
+        display: none;
+    }
+
+    .volumes {
+        margin-top: 20px;
+    }
+
+    .volume {
+        width: 200px;
+    }
+
+    .left-foot {
+        width: 66%;
+    }
+
+    .right-foot {
+        width: 33%;
     }
 }
